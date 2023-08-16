@@ -3,9 +3,9 @@
 
 int main()
 {
-  DDRB = 0b11111111;
-  DDRC = 0b11111111;
-  PORTB = 0b11111111;
+  DDRB = 0xFF;
+  DDRC = 0xFF;
+  PORTB = 0xFF;
   PORTC = 0b00000000;
   while(1)
   {
